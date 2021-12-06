@@ -62,7 +62,7 @@ public class BoardPanel extends JPanel implements ViewOrderListener {
 //					model.markCell(((MineButton)e.getSource()).getCoordinatesVO());
 					fireButtonRightClicked(button.getCoordinatesVO());
 				} else {
-					// Suponemos que es el boton izquiedo
+					// If not right click should be left click
 //					SwingUtilities.invokeLater(new GuiEvent(button.getCoordinatesVO(), ActionType.DISCOVER_CELL));
 					fireButtonLeftClicked(button.getCoordinatesVO());
 				}

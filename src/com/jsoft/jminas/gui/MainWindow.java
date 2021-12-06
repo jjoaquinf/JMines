@@ -176,7 +176,6 @@ public class MainWindow extends JFrame implements ActionListener, Runnable, Game
 		}
 		inGameFlag = false;
 		rebuildGUI();
-
  	}
 
 	@Override
